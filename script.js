@@ -1,10 +1,10 @@
-//your JS code here. If required.
-           const input = (year) => {
+           function func() {
+            let year = prompt("enter year")
+            Number(year);
             if(((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0)){
-                alert("366")
+                alert("leap year")
             }
             else{
-                alert("365");
+                alert("not leap year");
             }
            }
-    input(prompt(""));
